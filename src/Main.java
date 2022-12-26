@@ -23,7 +23,6 @@ public class Main {
 
         int toplam = (muzik+tarih+turkce+mat+kimya+fizik);
         float ort = toplam / 5;
-        System.out.println();
         String a = (ort < 60) ? "Dersten Kaldınız." : "Dersten Geçtiniz";
         System.out.print("Ortalamanız: "+ort+" "+a);
     }
